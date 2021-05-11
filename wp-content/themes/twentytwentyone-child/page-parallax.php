@@ -11,7 +11,7 @@ get_header();
     <div class="parallax__layer parallax__layer--base">
         <div class="ross">This is the foreground</div>
     </div>
- 
+ <h1></h1>
 </div>
 
 </div>
