@@ -75,6 +75,8 @@ body {
   display: block;
   width: 80%;
   margin: 0 auto;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
 }
 
 .fade-in {
