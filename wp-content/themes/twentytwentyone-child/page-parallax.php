@@ -7,7 +7,7 @@ get_header();
     <div class="parallax__layer parallax__layer--back ">
         <div class="jim">This is the background</div>
         <h2 class="ross">This is Bob Reguly</h2>
-        <h3>lkfds</h3>
+        <h3>lkfdksdlkjflkjdslkdsflkdslksadjklsdlkjfsdlkjs</h3>
     </div>
     <div class="parallax__layer parallax__layer--base">
         <div class="ross">This is the foreground</div>
