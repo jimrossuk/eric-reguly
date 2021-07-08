@@ -1,0 +1,105 @@
+.jim {
+  background: red;
+  color: white;
+  text-align: center;
+}
+
+.ross {
+  color: #00ff37;
+  background: fuchsia;
+  text-align: center;
+}
+
+.site-header .has-title-and-headline {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.parallax {
+  height: 110vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.parallax__layer--base {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.parallax__layer--back {
+  -webkit-transform: translateZ(-1px);
+  transform: translateZ(-4px);
+  scale: 4;
+}
+
+/* demo styles
+  --------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 100% / 1.5 Arial;
+}
+
+.parallax {
+  font-size: 200%;
+}
+
+/* add some padding to force scrollbars */
+.parallax__layer {
+  padding: 100vh 0;
+}
+
+/* centre the content in the parallax layers */
+.title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.pic {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: .44;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
