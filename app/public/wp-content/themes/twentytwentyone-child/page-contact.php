@@ -1,7 +1,8 @@
 <?php
 get_header();
 ?>
-lkdflksdflkj
+<h1>Contact</h1>
+
 
 <?php
 
