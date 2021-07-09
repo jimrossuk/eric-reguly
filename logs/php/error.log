@@ -13,3 +13,11 @@
 [09-Jul-2021 11:53:15 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
 [09-Jul-2021 11:53:15 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
 [09-Jul-2021 11:53:15 UTC] PHP   5. get_headers() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-news.php:2
+[09-Jul-2021 12:26:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_attachment_image(), 0 passed in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-home.php on line 8 and at least 1 expected in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/media.php:1026
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-home.php(8): wp_get_attachment_image()
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php(106): include('/Users/jimross/...')
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php(19): require_once('/Users/jimross/...')
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/index.php(17): require('/Users/jimross/...')
+#4 {main}
+  thrown in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/media.php on line 1026
