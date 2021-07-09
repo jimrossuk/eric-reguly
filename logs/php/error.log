@@ -6,3 +6,10 @@
 [08-Jul-2021 13:44:49 UTC] PHP Stack trace:
 [08-Jul-2021 13:44:49 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
 [08-Jul-2021 13:44:49 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[09-Jul-2021 11:53:15 UTC] PHP Warning:  get_headers() expects at least 1 parameter, 0 given in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-news.php on line 2
+[09-Jul-2021 11:53:15 UTC] PHP Stack trace:
+[09-Jul-2021 11:53:15 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[09-Jul-2021 11:53:15 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[09-Jul-2021 11:53:15 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[09-Jul-2021 11:53:15 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[09-Jul-2021 11:53:15 UTC] PHP   5. get_headers() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-news.php:2
