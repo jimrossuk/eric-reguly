@@ -10,7 +10,7 @@ get_header();
        
     </div>
     <div class="parallax__layer parallax__layer--base">
-    <img src=" http://localhost:10013/wp-content/uploads/2021/07/empire-of-vietnam-vietnam-war-map-map.jpg  " >
+    <img src=" http://localhost:10013/wp-content/uploads/2021/07/veitnam-transparent-1.png" >
     </div>
 
 </div>
