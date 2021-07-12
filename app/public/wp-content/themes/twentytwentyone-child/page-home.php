@@ -10,7 +10,7 @@ get_header();
        
     </div>
     <div class="parallax__layer parallax__layer--base">
-    <img src="/wp-content/uploads/2021/07/veitnam-transparent-1.png" >
+    <img class="map" src="/wp-content/uploads/2021/07/veitnam-transparent-2.png" >
     </div>
 
 </div>

@@ -79,19 +79,20 @@
   }
   
   .fade-in {
-    animation: fadeIn ease 5s;
-    -webkit-animation: fadeIn ease 5s;
-    -moz-animation: fadeIn ease 5s;
-    -o-animation: fadeIn ease 5s;
-    -ms-animation: fadeIn ease 5s;
+    animation: fadeIn ease 9s;
+    -webkit-animation: fadeIn ease 9s;
+    -moz-animation: fadeIn ease 9s;
+    -o-animation: fadeIn ease 9s;
+    -ms-animation: fadeIn ease 9s;
   }
   @keyframes fadeIn {
     0% {
-      opacity:.44;
+      opacity:.004;
     }
     100% {
       opacity:1;
     }
+
   }
   
   @-moz-keyframes fadeIn {
@@ -128,4 +129,10 @@
     100% {
       opacity:1;
   }
+}
+
+
+.map{
+  width: 100%;
+
 }

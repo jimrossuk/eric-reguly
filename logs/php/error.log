@@ -21,3 +21,127 @@ Stack trace:
 #3 /Users/jimross/Local Sites/eric-reguly/app/public/index.php(17): require('/Users/jimross/...')
 #4 {main}
   thrown in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/media.php on line 1026
+[12-Jul-2021 11:08:51 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/load.php:1107
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2249): is_admin()
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(292): wp_enqueue_registered_block_scripts_and_styles('')
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2211): do_action('enqueue_block_a...')
+#5 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(292): wp_common_block_scripts_and_styles('')
+#6 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#7 /Users/ji in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/load.php on line 1107
+[12-Jul-2021 11:10:35 UTC] PHP Warning:  Use of undefined constant _S_VERSION - assumed '_S_VERSION' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 7
+[12-Jul-2021 11:10:35 UTC] PHP Stack trace:
+[12-Jul-2021 11:10:35 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[12-Jul-2021 11:10:35 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[12-Jul-2021 11:10:35 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[12-Jul-2021 11:10:35 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[12-Jul-2021 11:10:35 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-home.php:2
+[12-Jul-2021 11:10:35 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[12-Jul-2021 11:10:35 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:676
+[12-Jul-2021 11:10:35 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:730
+[12-Jul-2021 11:10:35 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[12-Jul-2021 11:10:35 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3009
+[12-Jul-2021 11:10:35 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:10:35 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:10:35 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
+[12-Jul-2021 11:10:35 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2027
+[12-Jul-2021 11:10:35 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:10:35 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:10:35 UTC] PHP  17. theme_enqueue_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
+[12-Jul-2021 11:10:36 UTC] PHP Warning:  Use of undefined constant _S_VERSION - assumed '_S_VERSION' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 7
+[12-Jul-2021 11:10:36 UTC] PHP Stack trace:
+[12-Jul-2021 11:10:36 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[12-Jul-2021 11:10:36 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[12-Jul-2021 11:10:36 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[12-Jul-2021 11:10:36 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[12-Jul-2021 11:10:36 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/404.php:12
+[12-Jul-2021 11:10:36 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[12-Jul-2021 11:10:36 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:676
+[12-Jul-2021 11:10:36 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:730
+[12-Jul-2021 11:10:36 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[12-Jul-2021 11:10:36 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3009
+[12-Jul-2021 11:10:36 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:10:36 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:10:36 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
+[12-Jul-2021 11:10:36 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2027
+[12-Jul-2021 11:10:36 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:10:36 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:10:36 UTC] PHP  17. theme_enqueue_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
+[12-Jul-2021 11:10:40 UTC] PHP Warning:  Use of undefined constant _S_VERSION - assumed '_S_VERSION' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 7
+[12-Jul-2021 11:10:40 UTC] PHP Stack trace:
+[12-Jul-2021 11:10:40 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[12-Jul-2021 11:10:40 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[12-Jul-2021 11:10:40 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[12-Jul-2021 11:10:40 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[12-Jul-2021 11:10:40 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-home.php:2
+[12-Jul-2021 11:10:40 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[12-Jul-2021 11:10:40 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:676
+[12-Jul-2021 11:10:40 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:730
+[12-Jul-2021 11:10:40 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[12-Jul-2021 11:10:40 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3009
+[12-Jul-2021 11:10:40 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:10:40 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:10:40 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
+[12-Jul-2021 11:10:40 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2027
+[12-Jul-2021 11:10:40 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:10:40 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:10:40 UTC] PHP  17. theme_enqueue_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
+[12-Jul-2021 11:10:40 UTC] PHP Warning:  Use of undefined constant _S_VERSION - assumed '_S_VERSION' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 7
+[12-Jul-2021 11:10:40 UTC] PHP Stack trace:
+[12-Jul-2021 11:10:40 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[12-Jul-2021 11:10:40 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[12-Jul-2021 11:10:40 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[12-Jul-2021 11:10:40 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[12-Jul-2021 11:10:40 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/404.php:12
+[12-Jul-2021 11:10:40 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[12-Jul-2021 11:10:40 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:676
+[12-Jul-2021 11:10:40 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:730
+[12-Jul-2021 11:10:40 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[12-Jul-2021 11:10:40 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3009
+[12-Jul-2021 11:10:40 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:10:40 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:10:40 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
+[12-Jul-2021 11:10:40 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2027
+[12-Jul-2021 11:10:40 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:10:40 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:10:40 UTC] PHP  17. theme_enqueue_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
+[12-Jul-2021 11:11:04 UTC] PHP Warning:  Use of undefined constant _S_VERSION - assumed '_S_VERSION' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 7
+[12-Jul-2021 11:11:04 UTC] PHP Stack trace:
+[12-Jul-2021 11:11:04 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[12-Jul-2021 11:11:04 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[12-Jul-2021 11:11:04 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[12-Jul-2021 11:11:04 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[12-Jul-2021 11:11:04 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-home.php:2
+[12-Jul-2021 11:11:04 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[12-Jul-2021 11:11:04 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:676
+[12-Jul-2021 11:11:04 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:730
+[12-Jul-2021 11:11:04 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[12-Jul-2021 11:11:04 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3009
+[12-Jul-2021 11:11:04 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:11:04 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:11:04 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
+[12-Jul-2021 11:11:04 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2027
+[12-Jul-2021 11:11:04 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:11:04 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:11:04 UTC] PHP  17. theme_enqueue_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
+[12-Jul-2021 11:11:08 UTC] PHP Warning:  Use of undefined constant _S_VERSION - assumed '_S_VERSION' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 7
+[12-Jul-2021 11:11:08 UTC] PHP Stack trace:
+[12-Jul-2021 11:11:08 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[12-Jul-2021 11:11:08 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[12-Jul-2021 11:11:08 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[12-Jul-2021 11:11:08 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[12-Jul-2021 11:11:08 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-home.php:2
+[12-Jul-2021 11:11:08 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[12-Jul-2021 11:11:08 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:676
+[12-Jul-2021 11:11:08 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:730
+[12-Jul-2021 11:11:08 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[12-Jul-2021 11:11:08 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3009
+[12-Jul-2021 11:11:08 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:11:08 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:11:08 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
+[12-Jul-2021 11:11:08 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2027
+[12-Jul-2021 11:11:08 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:484
+[12-Jul-2021 11:11:08 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:316
+[12-Jul-2021 11:11:08 UTC] PHP  17. theme_enqueue_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:292
