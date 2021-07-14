@@ -5,15 +5,16 @@ $j("img").mouseover(function(){
    console.log("this is jim working!!");
 });
 
- $j( document ).hover(function() {
+$j( document).click(function() {
          console.log("newwest jim");
-          $j("#xx").fadeTo( 700, .09);
+          $j("#xx").fadeTo( 700, .09).remove();
           $j(".x").show( ".x" );
-          console.log("newwest add");
-       });
+          console.log("hover");
+         });
+        
+// $j(document).click(function() {
+//          $j(".front").remove(".front");
+//          console.log("click on front")
+//        });
 
-       $j(document).click(function() {
-         $j(".front").remove(".front");
-       });
-
-console.log("last log thing")    
+console.log("last log thing")      
