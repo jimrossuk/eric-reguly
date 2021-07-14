@@ -38,8 +38,11 @@ console.log("jimmmmmmmmmmmmmm")
 
 
  $j( document ).hover(function() {
-         console.log("newwest funtion");
-         $j("#xx").remove();
+         console.log("newwest jim");
+          $j("#xx").remove( );
+         // $j(document).add(" div");
+         $j(document).add( "h1");
+         console.log("post add");
        });
 
 

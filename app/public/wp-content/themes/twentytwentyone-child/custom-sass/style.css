@@ -23,12 +23,9 @@
 .site-main > * {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
-  padding: 0 !important;
-}
-
-#main.site-main{
   padding: 0;
 }
+
 .site-header .has-title-and-headline {
   margin: 0 !important;
   padding: 0 !important;
