@@ -4,7 +4,7 @@ get_header();
 ?>
 <div class="front">
     <img id="xx" class="pic fade-in xxxxxxx" src="/wp-content/uploads/2021/05/regulyVietnam1.png">
-    <h1>Ghosts of my Father</h1>
+    <h1 style=display:none class="x" >Ghosts of my Father</h1>
 </div>
 
 <div class="parallax">  

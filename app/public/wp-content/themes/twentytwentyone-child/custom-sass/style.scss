@@ -23,9 +23,20 @@
   margin-bottom: 0 !important;
   padding: 0;
 }
+
+#main.site-main{
+  padding-top: 0 !important;
+}
+
+
 .site-header .has-title-and-headline{
     margin: 0 !important;
     padding: 0 !important;
+}
+
+
+.x{
+  background: transparent;
 }
 .parallax {
     height: 110vh;
