@@ -2,7 +2,10 @@
 get_header();
 
 ?>
-    <img id="front-img" class="pic fade-in" src="/wp-content/uploads/2021/05/regulyVietnam1.png">
+<div class="front">
+    <img id="xx" class="pic fade-in xxxxxxx" src="/wp-content/uploads/2021/05/regulyVietnam1.png">
+</div>
+
 <div class="parallax">  
     <div class="parallax__layer parallax__layer--back ">
         <div class="jim"> In 1967 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium assumenda natus ut maiores optio quo ratione fugiat velit, magnam cupiditate maxime? Ratione iure error, ipsam sed vitae beatae quae. Facilis. </div>
