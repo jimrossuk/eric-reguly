@@ -37,6 +37,9 @@
 
 .x {
   background: transparent;
+  z-index: -1;
+  font-size: larger;
+  text-align: center;
 }
 
 .parallax {
@@ -130,5 +133,6 @@ body {
 
 .map {
   width: 100%;
+  z-index: 4;
 }
 /*# sourceMappingURL=style.css.map */

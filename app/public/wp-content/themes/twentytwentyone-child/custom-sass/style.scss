@@ -37,6 +37,9 @@
 
 .x{
   background: transparent;
+  z-index: -1;
+  font-size: larger;
+  text-align: center;
 }
 .parallax {
     height: 110vh;
@@ -161,5 +164,6 @@
 
 .map{
   width: 100%;
+  z-index: 4;
 
 }

@@ -12,9 +12,4 @@ $j( document).click(function() {
           console.log("hover");
          });
         
-// $j(document).click(function() {
-//          $j(".front").remove(".front");
-//          console.log("click on front")
-//        });
-
 console.log("last log thing")      
