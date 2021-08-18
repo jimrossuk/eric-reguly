@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<h1>News</h1>
+<h4 class="newsJs">jim</h4>
 
 
 <?php

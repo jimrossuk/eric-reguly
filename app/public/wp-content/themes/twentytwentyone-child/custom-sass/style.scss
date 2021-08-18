@@ -1,16 +1,17 @@
-.jim{
+.text{
     background: red;
     color: white;
     text-align: center;
+    display: none;
 }
 
-.jim-2{
+.text-2{
   background-color: blue;
   color: chartreuse;
   text-align: center;
 }
 
-.jim-3{
+.text-3{
   background-color: crimson;
 }
 .ross{
@@ -33,13 +34,17 @@
     margin: 0 !important;
     padding: 0 !important;
 }
-
+ .newsJs{
+  
+  //  display: inline-block;
+ }
 
 .x{
   background: transparent;
-  z-index: -1;
+  z-index: 10000;
   font-size: larger;
   text-align: center;
+  color: red
 }
 .parallax {
     height: 110vh;
@@ -108,11 +113,11 @@
   }
   
   .fade-in {
-    animation: fadeIn ease 9s;
-    -webkit-animation: fadeIn ease 9s;
-    -moz-animation: fadeIn ease 9s;
-    -o-animation: fadeIn ease 9s;
-    -ms-animation: fadeIn ease 9s;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
 
   }
   @keyframes fadeIn {
