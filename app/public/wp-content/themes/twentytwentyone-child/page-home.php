@@ -9,9 +9,16 @@ get_header();
     <h1 style="" class="thish3"> THis is h1</h1></h1>
 </div> -->
 
-<div class="front">
+<div class = "imageAndText">
+    
     <img id="bob-image" class="pic fade-in " src="/wp-content/uploads/2021/05/regulyVietnam1.png">
-    <h2 style=display:none class="x pic fade-in" >Ghosts of War: My Father's Vietnam Odyssey Revisited</h2>
+    <div class= "x">
+        
+        <h2 style=display:none class=" pic x fade-in" >Ghosts of War:</h2>
+        <h4 style=display:none class=" pic x tx fade-in" > My Father's Vietnam Odyssey Revisited</h4>
+    </div>
+</div>
+<div class="front">
     
     <div class="parallax">  
 
