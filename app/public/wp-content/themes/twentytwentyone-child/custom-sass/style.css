@@ -15,7 +15,7 @@
   background-color: crimson;
 }
 
-.ross {
+.test-title {
   color: #00ff37;
   background: fuchsia;
   text-align: center;
@@ -36,26 +36,30 @@
   padding: 0 !important;
 }
 
-.x {
+.site-header {
+  padding-bottom: 0 !important;
+}
+
+.imageAndText {
+  position: relative;
+}
+
+.front-page-title {
   position: absolute;
-  width: 80%;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -60%);
-          transform: translate(-50%, -60%);
-  margin: 0 auto;
-  height: 50px;
+  display: block;
+  text-align: center;
+  top: 1.8em;
+  width: 120%;
   color: firebrick;
+  z-index: 1;
 }
 
 .tx {
-  top: 3em;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  top: 7.5em;
 }
 
 .parallax {
-  height: 110vh;
+  height: 350vh;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-perspective: 1px;

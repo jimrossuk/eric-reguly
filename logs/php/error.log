@@ -152,3 +152,4 @@ Stack trace:
 [27-Jul-2021 16:54:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 19
 [17-Aug-2021 15:05:00 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
 [17-Aug-2021 15:05:01 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[18-Aug-2021 15:51:21 UTC] PHP Parse error:  syntax error, unexpected '>' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-home.php on line 45

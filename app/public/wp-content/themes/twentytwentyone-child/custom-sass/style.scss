@@ -14,7 +14,7 @@
 .text-3{
   background-color: crimson;
 }
-.ross{
+.test-title{
     color: rgb(0, 255, 55);
     background: fuchsia;
     text-align: center;
@@ -34,38 +34,33 @@
     margin: 0 !important;
     padding: 0 !important;
 }
- .newsJs{
-  
-  //  display: inline-block;
- }
-.front{
-  // display: none;
+
+.site-header{
+  padding-bottom: 0!important;
 }
- .imageAndText{
-  //  position: absolute;
- }
-.x{
+
+.imageAndText{
+  position: relative;
+}
+
+//  For book title
+.front-page-title{
   position: absolute;
-  width: 80%;
-  top: 50%;
-  left: 50%;
-   transform: translate(-50%, -60%);
-  // top: 1em;
-  //  left: 0;
-   margin: 0 auto;
-  //  width: 300px;
-    height: 50px;
-    color: firebrick;
+  display: block;
+  text-align:center;
+  top: 1.8em;
+  width:120%;
+  color: firebrick;
+  z-index: 1;
 }
-.tx{
-  top:3em;
-   transform: translate(-50%, -50%);
+// for book title
+.tx{  
+  top:7.5em;
   
-
-
 }
+
 .parallax {
-    height: 110vh;
+    height: 350vh;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-perspective: 1px;

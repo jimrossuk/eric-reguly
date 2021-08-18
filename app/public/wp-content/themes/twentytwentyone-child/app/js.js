@@ -24,9 +24,9 @@ $j(function(){
 $j(function(){
    $j(bobI).mouseenter(function(){
       
-      $j(".x.pic.fade-in").css("display", "block");
+      $j(".front-page-title.pic.fade-in").css("display", "block");
       $j("#bob-image").fadeTo( 400, .5);
-      $j(".site-header").css("padding-bottom" , 0)
+      // $j(".site-header").css("padding-bottom" , 0)
    }
    )
 })
