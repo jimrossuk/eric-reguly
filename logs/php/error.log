@@ -153,3 +153,335 @@ Stack trace:
 [17-Aug-2021 15:05:00 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
 [17-Aug-2021 15:05:01 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
 [18-Aug-2021 15:51:21 UTC] PHP Parse error:  syntax error, unexpected '>' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-home.php on line 45
+[08-Sep-2021 12:06:19 UTC] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 24
+[08-Sep-2021 12:06:20 UTC] PHP Parse error:  syntax error, unexpected '' );' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 24
+[08-Sep-2021 12:45:04 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 12:45:04 UTC] PHP Stack trace:
+[08-Sep-2021 12:45:04 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[08-Sep-2021 12:45:04 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[08-Sep-2021 12:45:04 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[08-Sep-2021 12:45:04 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[08-Sep-2021 12:45:04 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php:2
+[08-Sep-2021 12:45:04 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[08-Sep-2021 12:45:04 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:716
+[08-Sep-2021 12:45:04 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:770
+[08-Sep-2021 12:45:04 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[08-Sep-2021 12:45:04 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3015
+[08-Sep-2021 12:45:04 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 12:45:04 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 12:45:04 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 12:45:04 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2083
+[08-Sep-2021 12:45:04 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 12:45:04 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 12:45:04 UTC] PHP  17. wp_common_block_scripts_and_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 12:45:04 UTC] PHP  18. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2267
+[08-Sep-2021 12:45:04 UTC] PHP  19. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 12:45:04 UTC] PHP  20. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 12:45:04 UTC] PHP  21. add_custom_fonts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 12:45:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function enqueue_style() in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php:22
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): add_custom_fonts('')
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#4 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Users/jimross/ in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 12:45:11 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 12:45:11 UTC] PHP Stack trace:
+[08-Sep-2021 12:45:11 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[08-Sep-2021 12:45:11 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[08-Sep-2021 12:45:11 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[08-Sep-2021 12:45:11 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[08-Sep-2021 12:45:11 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php:2
+[08-Sep-2021 12:45:11 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[08-Sep-2021 12:45:11 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:716
+[08-Sep-2021 12:45:11 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:770
+[08-Sep-2021 12:45:11 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[08-Sep-2021 12:45:11 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3015
+[08-Sep-2021 12:45:11 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 12:45:11 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 12:45:11 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 12:45:11 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2083
+[08-Sep-2021 12:45:11 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 12:45:11 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 12:45:11 UTC] PHP  17. wp_common_block_scripts_and_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 12:45:11 UTC] PHP  18. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2267
+[08-Sep-2021 12:45:11 UTC] PHP  19. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 12:45:11 UTC] PHP  20. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 12:45:11 UTC] PHP  21. add_custom_fonts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 12:45:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function enqueue_style() in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php:22
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): add_custom_fonts('')
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#4 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Users/jimross/ in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 12:45:14 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 12:45:14 UTC] PHP Stack trace:
+[08-Sep-2021 12:45:14 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[08-Sep-2021 12:45:14 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[08-Sep-2021 12:45:14 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[08-Sep-2021 12:45:14 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[08-Sep-2021 12:45:14 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php:2
+[08-Sep-2021 12:45:14 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[08-Sep-2021 12:45:14 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:716
+[08-Sep-2021 12:45:14 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:770
+[08-Sep-2021 12:45:14 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[08-Sep-2021 12:45:14 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3015
+[08-Sep-2021 12:45:14 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 12:45:14 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 12:45:14 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 12:45:14 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2083
+[08-Sep-2021 12:45:14 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 12:45:14 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 12:45:14 UTC] PHP  17. wp_common_block_scripts_and_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 12:45:14 UTC] PHP  18. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2267
+[08-Sep-2021 12:45:14 UTC] PHP  19. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 12:45:14 UTC] PHP  20. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 12:45:14 UTC] PHP  21. add_custom_fonts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 12:45:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function enqueue_style() in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php:22
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): add_custom_fonts('')
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#4 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Users/jimross/ in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:01:22 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:01:22 UTC] PHP Stack trace:
+[08-Sep-2021 13:01:22 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[08-Sep-2021 13:01:22 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[08-Sep-2021 13:01:22 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[08-Sep-2021 13:01:22 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[08-Sep-2021 13:01:22 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php:2
+[08-Sep-2021 13:01:22 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[08-Sep-2021 13:01:22 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:716
+[08-Sep-2021 13:01:22 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:770
+[08-Sep-2021 13:01:22 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[08-Sep-2021 13:01:22 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3015
+[08-Sep-2021 13:01:22 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:22 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:22 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:22 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2083
+[08-Sep-2021 13:01:22 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:22 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:22 UTC] PHP  17. wp_common_block_scripts_and_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:22 UTC] PHP  18. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2267
+[08-Sep-2021 13:01:22 UTC] PHP  19. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:22 UTC] PHP  20. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:22 UTC] PHP  21. add_custom_fonts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function enqueue_style() in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php:22
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): add_custom_fonts('')
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#4 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Users/jimross/ in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:01:38 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:01:38 UTC] PHP Stack trace:
+[08-Sep-2021 13:01:38 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[08-Sep-2021 13:01:38 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[08-Sep-2021 13:01:38 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[08-Sep-2021 13:01:38 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[08-Sep-2021 13:01:38 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php:2
+[08-Sep-2021 13:01:38 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[08-Sep-2021 13:01:38 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:716
+[08-Sep-2021 13:01:38 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:770
+[08-Sep-2021 13:01:38 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[08-Sep-2021 13:01:38 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3015
+[08-Sep-2021 13:01:38 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:38 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:38 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:38 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2083
+[08-Sep-2021 13:01:38 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:38 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:38 UTC] PHP  17. wp_common_block_scripts_and_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:38 UTC] PHP  18. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2267
+[08-Sep-2021 13:01:38 UTC] PHP  19. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:38 UTC] PHP  20. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:38 UTC] PHP  21. add_custom_fonts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function enqueue_style() in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php:22
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): add_custom_fonts('')
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#4 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Users/jimross/ in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:01:41 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:01:41 UTC] PHP Stack trace:
+[08-Sep-2021 13:01:41 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[08-Sep-2021 13:01:41 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[08-Sep-2021 13:01:41 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[08-Sep-2021 13:01:41 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[08-Sep-2021 13:01:41 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php:2
+[08-Sep-2021 13:01:41 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[08-Sep-2021 13:01:41 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:716
+[08-Sep-2021 13:01:41 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:770
+[08-Sep-2021 13:01:41 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[08-Sep-2021 13:01:41 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3015
+[08-Sep-2021 13:01:41 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:41 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:41 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:41 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2083
+[08-Sep-2021 13:01:41 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:41 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:41 UTC] PHP  17. wp_common_block_scripts_and_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:41 UTC] PHP  18. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2267
+[08-Sep-2021 13:01:41 UTC] PHP  19. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:41 UTC] PHP  20. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:41 UTC] PHP  21. add_custom_fonts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function enqueue_style() in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php:22
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): add_custom_fonts('')
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#4 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Users/jimross/ in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:01:51 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:01:51 UTC] PHP Stack trace:
+[08-Sep-2021 13:01:51 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[08-Sep-2021 13:01:51 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[08-Sep-2021 13:01:51 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[08-Sep-2021 13:01:51 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[08-Sep-2021 13:01:51 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php:2
+[08-Sep-2021 13:01:51 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[08-Sep-2021 13:01:51 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:716
+[08-Sep-2021 13:01:51 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:770
+[08-Sep-2021 13:01:51 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[08-Sep-2021 13:01:51 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3015
+[08-Sep-2021 13:01:51 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:51 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:51 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:51 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2083
+[08-Sep-2021 13:01:51 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:51 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:51 UTC] PHP  17. wp_common_block_scripts_and_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:51 UTC] PHP  18. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2267
+[08-Sep-2021 13:01:51 UTC] PHP  19. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:01:51 UTC] PHP  20. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:01:51 UTC] PHP  21. add_custom_fonts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:01:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function enqueue_style() in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php:22
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): add_custom_fonts('')
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#4 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Users/jimross/ in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:02:17 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:02:17 UTC] PHP Stack trace:
+[08-Sep-2021 13:02:17 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[08-Sep-2021 13:02:17 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[08-Sep-2021 13:02:17 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[08-Sep-2021 13:02:17 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[08-Sep-2021 13:02:17 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php:2
+[08-Sep-2021 13:02:17 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[08-Sep-2021 13:02:17 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:716
+[08-Sep-2021 13:02:17 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:770
+[08-Sep-2021 13:02:17 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[08-Sep-2021 13:02:17 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3015
+[08-Sep-2021 13:02:17 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:02:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:02:17 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:02:17 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2083
+[08-Sep-2021 13:02:17 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:02:17 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:02:17 UTC] PHP  17. wp_common_block_scripts_and_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:02:17 UTC] PHP  18. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2267
+[08-Sep-2021 13:02:17 UTC] PHP  19. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:02:17 UTC] PHP  20. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:02:17 UTC] PHP  21. add_custom_fonts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:02:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function enqueue_style() in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php:22
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): add_custom_fonts('')
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#4 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Users/jimross/ in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:02:20 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:02:20 UTC] PHP Stack trace:
+[08-Sep-2021 13:02:20 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[08-Sep-2021 13:02:20 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[08-Sep-2021 13:02:20 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[08-Sep-2021 13:02:20 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[08-Sep-2021 13:02:20 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php:2
+[08-Sep-2021 13:02:20 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[08-Sep-2021 13:02:20 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:716
+[08-Sep-2021 13:02:20 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:770
+[08-Sep-2021 13:02:20 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[08-Sep-2021 13:02:20 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3015
+[08-Sep-2021 13:02:20 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:02:20 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:02:20 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:02:20 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2083
+[08-Sep-2021 13:02:20 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:02:20 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:02:20 UTC] PHP  17. wp_common_block_scripts_and_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:02:20 UTC] PHP  18. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2267
+[08-Sep-2021 13:02:20 UTC] PHP  19. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:02:20 UTC] PHP  20. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:02:20 UTC] PHP  21. add_custom_fonts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:02:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function enqueue_style() in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php:22
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): add_custom_fonts('')
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#4 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Users/jimross/ in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:02:22 UTC] PHP Warning:  Use of undefined constant wp - assumed 'wp' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22
+[08-Sep-2021 13:02:22 UTC] PHP Stack trace:
+[08-Sep-2021 13:02:22 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[08-Sep-2021 13:02:22 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[08-Sep-2021 13:02:22 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[08-Sep-2021 13:02:22 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[08-Sep-2021 13:02:22 UTC] PHP   5. get_header() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php:2
+[08-Sep-2021 13:02:22 UTC] PHP   6. locate_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:48
+[08-Sep-2021 13:02:22 UTC] PHP   7. load_template() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:716
+[08-Sep-2021 13:02:22 UTC] PHP   8. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template.php:770
+[08-Sep-2021 13:02:22 UTC] PHP   9. wp_head() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone/header.php:20
+[08-Sep-2021 13:02:22 UTC] PHP  10. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/general-template.php:3015
+[08-Sep-2021 13:02:22 UTC] PHP  11. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:02:22 UTC] PHP  12. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:02:22 UTC] PHP  13. wp_enqueue_scripts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:02:22 UTC] PHP  14. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2083
+[08-Sep-2021 13:02:22 UTC] PHP  15. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:02:22 UTC] PHP  16. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:02:22 UTC] PHP  17. wp_common_block_scripts_and_styles() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:02:22 UTC] PHP  18. do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php:2267
+[08-Sep-2021 13:02:22 UTC] PHP  19. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:470
+[08-Sep-2021 13:02:22 UTC] PHP  20. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[08-Sep-2021 13:02:22 UTC] PHP  21. add_custom_fonts() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[08-Sep-2021 13:02:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function enqueue_style() in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php:22
+Stack trace:
+#0 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): add_custom_fonts('')
+#1 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/script-loader.php(2267): do_action('enqueue_block_a...')
+#4 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(303): wp_common_block_scripts_and_styles('')
+#5 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#7 /Users/jimross/ in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/functions.php on line 22

@@ -7,16 +7,28 @@ get_header();
     <div class = "imageAndText">
         
         <img id="bob-image" class="pic fade-in " src="/wp-content/uploads/2021/05/regulyVietnam1.png">
-        <div class= "front-page-title">
+        <div  class= "front-page-title">
+            <img id=" bob-image" style=display:none class = "book pic fade-in front-page-title new" src="/wp-content/uploads/2021/09/Eric-Reguly-Book-cover.jpeg">
+
+            <h2 style=display:none class=" pic  fade-in fade-out" >Ghosts of War:</h2>
             
-            <h2 style=display:none class=" pic front-page-title fade-in" >Ghosts of War:</h2>
-            
-            <h4 style=display:none class=" pic front-page-title tx fade-in" > My Father's Vietnam Odyssey Revisited</h4>
+            <!-- <h4 style=display:none class=" pic front-page-title tx fade-in" > My Father's Vietnam Odyssey Revisited</h4>  -->
         </div>
     </div>
     
 </div>
-<!-- <div class="front">
+<div>
+    <h1 style=margin:5em > This is a thing</h1>
+</div>
+
+
+
+
+
+<!-- This is the scroll section -->
+
+<!-- 
+<div class="front">
     
     <div class="parallax">  
 

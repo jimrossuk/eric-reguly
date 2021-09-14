@@ -1,24 +1,31 @@
-.text{
-    background: red;
-    color: white;
-    text-align: center;
-    display: none;
+// .text{
+//     background: red;
+//     color: white;
+//     text-align: center;
+//     display: none;
+// }
+h1, h2, h3, h4{
+   font-family: Lora !important;
+}
+p{
+  font-family: Source Sans Pro !important;
 }
 
-.text-2{
-  background-color: blue;
-  color: chartreuse;
-  text-align: center;
-}
+// .text-2{
+//   background-color: blue;
+//   color: chartreuse;
+//   text-align: center;
+// }
 
-.text-3{
-  background-color: crimson;
-}
-.test-title{
-    color: rgb(0, 255, 55);
-    background: fuchsia;
-    text-align: center;
-}
+// .text-3{
+//   background-color: crimson;
+// }
+// .test-title{
+//     color: rgb(0, 255, 55);
+//     background: fuchsia;
+//     text-align: center;
+// }
+
 .site-main > *{
   margin-top: 0 !important;
   margin-bottom: 0 !important;
@@ -28,6 +35,7 @@
 #main.site-main{
   padding-top: 0 !important;
 }
+
 
 
 .site-header .has-title-and-headline{
@@ -43,15 +51,47 @@
   position: relative;
 }
 
+// This section of three
+//  is to get the scroling bit 
+
+// .mousetest {
+//   width: 320px;
+//     height: 170px;
+//     margin: 10px 50px 10px 10px;
+//     background: purple;
+//     border: 2px groove;
+//     float: right;
+// }
+
+// .pTest{
+//   margin: 0;
+//   margin-left: 10px;
+//   color: firebrick;
+//   // width: 220px;
+//   // height: 120px;
+//   // padding-top: 70px;
+//   text-align: center;
+//   font-size: 14px;
+// }
+
+// .spanTest{
+//   display: block;
+ 
+// }
+// This is the end of the tree sections for scroll bit
+
+
 //  For book title
 .front-page-title{
   position: absolute;
   display: block;
-  text-align:center;
-  top: 1.8em;
-  width:120%;
-  color: firebrick;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  // color: firebrick;
   z-index: 1;
+  // Delete this once fixed
+
 }
 // for book title
 .tx{  
@@ -59,33 +99,33 @@
   
 }
 
-.parallax {
-    height: 350vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-perspective: 1px;
-    perspective: 1px;
-    margin-top: 0;
-  }
+// .parallax {
+//     height: 100vh;
+//     overflow-x: hidden;
+//     overflow-y: auto;
+//     -webkit-perspective: 1px;
+//     perspective: 1px;
+//     margin-top: 0;
+//   }
 
-  .parallax__layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
+//   .parallax__layer {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//   }
 
-  .parallax__layer--base {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
+//   .parallax__layer--base {
+//     -webkit-transform: translateZ(0);
+//     transform: translateZ(0);
+//   }
 
-  .parallax__layer--back {
-    -webkit-transform: translateZ(-1px);
-    transform: translateZ(-4px);
-    scale: 4;
-  }
+//   .parallax__layer--back {
+//     -webkit-transform: translateZ(-1px);
+//     transform: translateZ(-4px);
+//     scale: 4;
+//   }
 
 
   /* demo styles
@@ -96,27 +136,27 @@
     padding:0;
   }
 
-  body {
-    font: 100% / 1.5 Arial;
-  }
+  // body {
+  //   font: 100% / 1.5 Arial;
+  // }
 
-  .parallax {
-    font-size: 200%;
-  }
+  // .parallax {
+  //   font-size: 200%;
+  // }
 
-   /* add some padding to force scrollbars */
-  .parallax__layer {
-    padding: 100vh 0;
-  }
+  //  /* add some padding to force scrollbars */
+  // .parallax__layer {
+  //   padding: 100vh 0;
+  // }
 
-   /* centre the content in the parallax layers */
-  .title {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+  //  /* centre the content in the parallax layers */
+  // .title {
+  //   position: absolute;
+  //   left: 50%;
+  //   top: 50%;
+  //   -webkit-transform: translate(-50%, -50%);
+  //   transform: translate(-50%, -50%);
+  // }
 
   .pic{
       display: block;
@@ -124,29 +164,46 @@
       margin: 0 auto;
    
   }
+
+  // .new{
+  //   width: 37%;
+  //   display: block;
+  //   margin: 0 auto;
+  // }
+
   
   .fade-in {
-    animation: fadeIn ease 2s;
-    -webkit-animation: fadeIn ease 2s;
-    -moz-animation: fadeIn ease 2s;
-    -o-animation: fadeIn ease 2s;
-    -ms-animation: fadeIn ease 2s;
+    animation: fadeIn ease 4s; 
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
 
   }
   @keyframes fadeIn {
     0% {
       opacity:.004;
+      // width: 20%;    
     }
-    100% {
-      opacity:1;
+    50%{
+      // max-width: 40%;
+      opacity: .5;
     }
 
+    100% {
+      // max-width: 0;
+      opacity:1;
+    }
   }
   
   @-moz-keyframes fadeIn {
     0% {
       opacity:0;
     }
+    50%{
+      // max-width: 200%;
+    }
+    
     100% {
       opacity:1;
     }
@@ -155,6 +212,10 @@
   @-webkit-keyframes fadeIn {
     0% {
       opacity:0;
+      // width: 20%;
+    }
+    50%{
+      // max-width: 200%;
     }
     100% {
       opacity:1;
@@ -164,6 +225,10 @@
   @-o-keyframes fadeIn {
     0% {
       opacity:0;
+      // width: 20%;
+    }
+    50%{
+      // max-width: 200%;
     }
     100% {
       opacity:1;
@@ -173,10 +238,100 @@
   @-ms-keyframes fadeIn {
     0% {
       opacity:0;
+      // width: 20%;
+    }
+    50%{
+      //  max-width: 200%;
     }
     100% {
       opacity:1;
   }
+}
+
+.fade-out {
+  animation: fadeOUT ease 9s;
+ 
+  -webkit-animation: fadeOUT ease 9s;
+  -moz-animation: fadeOUT ease 9s;
+  -o-animation: fadeOUT ease 9s;
+  -ms-animation: fadeOUT ease 9s;
+
+}
+@keyframes fadeOUT {
+  0% {
+    opacity:.004;
+    // width: 20%;
+  }
+  50%{
+    max-width: 40%;
+    opacity: .5;
+  }
+
+  100% {
+    max-width: 0;
+    opacity:1;
+  }
+
+}
+
+@-moz-keyframes fadeOUT {
+  0% {
+    opacity:0;
+   
+     margin: 0 auto;
+  }
+  50%{
+    // max-width: 200%;
+  }
+  
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeOUT {
+  0% {
+    opacity:0;
+    // width: 20%;
+  }
+  50%{
+    // max-width: 200%;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeOUT {
+  0% {
+    opacity:0;
+    // width: 20%;
+  }
+  50%{
+    // max-width: 200%;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeOUT {
+  0% {
+    opacity:0;
+    // width: 20%;
+  }
+  50%{
+    //  max-width: 200%;
+  }
+  100% {
+    opacity:1;
+}
+}
+
+.book{
+  width: 54%;
+  right: 1px;
+  left: 1px;
 }
 
 
@@ -187,4 +342,4 @@
 }
 
 
-@import"media-enquires.scss";
+ @import"media-enquires.scss";
