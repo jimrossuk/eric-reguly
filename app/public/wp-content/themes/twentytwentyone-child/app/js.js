@@ -35,6 +35,16 @@ $j(function(){
 //    }
 //    )
 // })
+
+
+$j(function(){
+   $j(".bookSale").click(function(){
+
+      $j(".bookSales").css('display', "block");
+      console.log("booksale test")
+   })
+
+});
    // want to make the map bit work wht x and y axis trigger points
 
 //          },);

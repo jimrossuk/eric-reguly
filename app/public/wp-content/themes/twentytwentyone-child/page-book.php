@@ -17,33 +17,35 @@ get_header();
     </div>
     
 </div>
-<div>
-    <h1> Buy it here</h1>
+<div >
+    <h1 class="bookSale"> Click to buy it here</h1>
 
+    <div class="bookSales"style="display:none">
 
-    <?php 
+        <?php 
     if( have_rows('buy_this_book') ): ?>
     <?php while( have_rows('buy_this_book') ): the_row(); 
 
-        $bna = get_sub_field('barnes_and_noble');
-        $amz = get_sub_field('amazon');
-        ?>
-<div>
-            <ui>
-                <li>
-                <a href="<?php echo esc_url( $bna['url']); ?>"><?php echo esc_html( $bna['title'] ); ?></a>
-                </li>
-                <li>
-                <a href="<?php echo esc_url( $amz['url']); ?>"><?php echo esc_html( $amz['title'] ); ?></a>
-                </li>
-            </ui>
-           
-            
-     
+$bna = get_sub_field('barnes_and_noble');
+$amz = get_sub_field('amazon');
+?>
 
-        <?php endwhile; ?>
-<?php endif; ?>    
- 
+<ui>
+    <li>
+        <button href="<?php echo esc_url( $bna['url']); ?>"><?php echo esc_html( $bna['title'] ); ?></button>
+    </li>
+    <li>
+        <button href="<?php echo esc_url( $amz['url']); ?>"><?php echo esc_html( $amz['title'] ); ?></button>
+    </li>
+</ui>
+
+
+
+
+    <?php endwhile; ?>  
+    <?php endif; ?>    
+
+    </div>
 </div>
 
 <?
