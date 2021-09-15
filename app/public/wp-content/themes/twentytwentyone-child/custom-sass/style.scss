@@ -11,6 +11,28 @@ p{
   font-family: Source Sans Pro !important;
 }
 
+
+.bookSales, .bookSale{
+  text-decoration: none;
+list-style-type: none;
+text-align: center;
+margin: 3px;
+
+}
+.bookSales{
+  // margin: 10PX;
+ 
+  text-align: center;
+}
+
+.buttonCenter{
+  background-color: firebrick !important;
+  width:  200px;
+  margin-top: 4px;
+  font-size: smaller;
+}
+
+
 // .text-2{
 //   background-color: blue;
 //   color: chartreuse;

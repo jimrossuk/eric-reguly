@@ -18,7 +18,7 @@ get_header();
     
 </div>
 <div >
-    <h1 class="bookSale"> Click to buy it here</h1>
+    <h4 class="bookSale"> Click to buy it here</h4>
 
     <div class="bookSales"style="display:none">
 
@@ -32,10 +32,10 @@ $amz = get_sub_field('amazon');
 
 <ui>
     <li>
-        <button href="<?php echo esc_url( $bna['url']); ?>"><?php echo esc_html( $bna['title'] ); ?></button>
+        <button class="buttonCenter" href="<?php echo esc_url( $bna['url']); ?>"><?php echo esc_html( $bna['title'] ); ?></button>
     </li>
     <li>
-        <button href="<?php echo esc_url( $amz['url']); ?>"><?php echo esc_html( $amz['title'] ); ?></button>
+        <button class="buttonCenter" href="<?php echo esc_url( $amz['url']); ?>"><?php echo esc_html( $amz['title'] ); ?></button>
     </li>
 </ui>
 

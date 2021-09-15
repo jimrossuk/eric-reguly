@@ -6,6 +6,24 @@ p {
   font-family: Source Sans Pro !important;
 }
 
+.bookSales, .bookSale {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  margin: 3px;
+}
+
+.bookSales {
+  text-align: center;
+}
+
+.buttonCenter {
+  background-color: firebrick !important;
+  width: 200px;
+  margin-top: 4px;
+  font-size: smaller;
+}
+
 .site-main > * {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
@@ -161,9 +179,6 @@ p {
 }
 
 @media screen and (min-width: 850px) {
-  .pic {
-    max-width: 54%;
-  }
   .tx {
     font-size: 1em;
   }
