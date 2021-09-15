@@ -18,41 +18,33 @@ get_header();
     
 </div>
 <div>
-    <h1 style=margin:5em > This is a thing</h1>
-</div>
+    <h1> Buy it here</h1>
 
 
+    <?php 
+    if( have_rows('buy_this_book') ): ?>
+    <?php while( have_rows('buy_this_book') ): the_row(); 
 
-
-
-<!-- This is the scroll section -->
-
-<!-- 
-<div class="front">
-    
-    <div class="parallax">  
-
-        <div class="parallax__layer parallax__layer--back ">
-    
+        $bna = get_sub_field('barnes_and_noble');
+        $amz = get_sub_field('amazon');
+        ?>
+<div>
+            <ui>
+                <li>
+                <a href="<?php echo esc_url( $bna['url']); ?>"><?php echo esc_html( $bna['title'] ); ?></a>
+                </li>
+                <li>
+                <a href="<?php echo esc_url( $amz['url']); ?>"><?php echo esc_html( $amz['title'] ); ?></a>
+                </li>
+            </ui>
+           
+            
      
-            <div class="text"> Div 1  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium assumenda natus ut maiores optio quo ratione fugiat velit, magnam cupiditate maxime? Ratione iure error, ipsam sed vitae beatae quae. Facilis.
-            </div>
 
-            <div class="text-2"> Div 2 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea explicabo modi molestias quas totam quae quis facere distinctio, quaerat, optio, accusamus delectus. Fuga voluptatem natus, esse eius minus laudantium ab? 
-            </div>
-
-            <div class="text-3"> Div 3  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium assumenda natus ut maiores optio quo ratione fugiat velit, magnam cupiditate maxime? Ratione iure error, ipsam sed vitae beatae quae. Facilis.
-            </div>
-
-            <h2 class="test-title">This is Bob Reguly</h2>
-       
-        </div>
-    <div class="parallax__layer parallax__layer--base">
-        <img class="map" src="/wp-content/uploads/2021/07/veitnam-transparent-2.png" >
-    </div>
-
-    </div>
+        <?php endwhile; ?>
+<?php endif; ?>    
+ 
 </div>
-</div> -->
+
 <?
 get_footer();

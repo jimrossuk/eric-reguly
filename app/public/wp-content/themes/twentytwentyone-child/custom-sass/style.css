@@ -120,7 +120,7 @@ p {
 }
 
 .book {
-  width: 54%;
+  max-width: 54%;
   right: 1px;
   left: 1px;
 }
@@ -161,6 +161,9 @@ p {
 }
 
 @media screen and (min-width: 850px) {
+  .pic {
+    max-width: 54%;
+  }
   .tx {
     font-size: 1em;
   }

@@ -50,9 +50,12 @@
 }
 
 @media screen and(min-width: 850px) {
-    .front-page-title{
-        // top: 3.6em
-    }
+   .pic{
+       max-width: 54%;
+   }
+//    .book{
+//        max-width: inherit;
+//    }
     .tx{
         // top: 12em;
         font-size: 1em;

@@ -24,17 +24,17 @@ $j(function(){
     
 
 
-$j(function(){
-   $j(bobI).mouseenter(function(){
+// $j(function(){
+//    $j(bobI).mouseenter(function(){
       
-      $j(".front-page-title.pic.fade-in").css("display", "block");
-      $j("#bob-image").fadeTo( 3300, 0);
-      // $j("front-page-title").fadeTo(400, 1);
-      // $j(".site-header").css("padding-bottom" , 0)
-      console.log("fading")
-   }
-   )
-})
+//       $j(".front-page-title.pic.fade-in").css("display", "block");
+//       $j("#bob-image").fadeTo( 3300, 0);
+//       // $j("front-page-title").fadeTo(400, 1);
+//       // $j(".site-header").css("padding-bottom" , 0)
+//       console.log("fading")
+//    }
+//    )
+// })
    // want to make the map bit work wht x and y axis trigger points
 
 //          },);
