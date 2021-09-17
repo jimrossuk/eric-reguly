@@ -1,9 +1,21 @@
 <?php
 get_header();
 ?>
-<h1>Contact</h1>
+<div style="margin:3em">
 
+    <h3>Contact</h3>
+    <!-- Contact section -->
+    <div> 
+        <h4> Email <a href="mailto:<?php the_field('email'); ?>">ericreguly@gmail.com</a> <?php  ?></h4>
+        <h4> Phone  <a href="tel:<?php the_field('phone'); ?>">+393316496202</a> <?php  ?></h4> 
+        <h4> Twitter  <a href="<?php the_field('twitter'); ?>">@ereguly</a> <?php  ?></h4> 
+        
+        <?php
+echo do_shortcode("[ninja_form id=1]");
+?>
 
+    </div>
+</div>
 <?php
 
 get_footer();
