@@ -1,8 +1,12 @@
 <?php
 get_header();
 ?>
-<h4 class="newsJs">jim</h4>
-
-
+<h3> My latest articles</h3>
 <?php
+
+echo do_shortcode('[wp-rss-aggregator feeds="globe-and-mail"]');
+
+
+
+
 get_footer();

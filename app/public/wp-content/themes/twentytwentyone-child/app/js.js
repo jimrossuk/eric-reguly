@@ -3,13 +3,14 @@ let $j = jQuery.noConflict();
 let nJs = ".newsJs"; // keep a reference to the things
 let bobI =("#bob-image");
 
-
-$j(function(){
-   $j(nJs).mouseenter(function()
-   {
-     $j(nJs).append("test");
-   });
- });
+// This is a test forthe news page...
+// not exactly need...| It was a test script
+// $j(function(){
+//    $j(nJs).mouseenter(function()
+//    {
+//      $j(nJs).append("test");
+//    });
+//  });
 
 
 //  $j(function(){

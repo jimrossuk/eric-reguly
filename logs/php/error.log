@@ -1517,3 +1517,60 @@ Stack trace:
 [15-Sep-2021 11:29:58 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
 [15-Sep-2021 11:29:58 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
 [16-Sep-2021 10:50:17 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ']' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-contact.php on line 6
+[21-Sep-2021 12:46:00 UTC] PHP Warning:  ./cache is not writable. Make sure you've set the correct relative or absolute path, and that the location is server-writable. in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php on line 1747
+[21-Sep-2021 12:46:00 UTC] PHP Stack trace:
+[21-Sep-2021 12:46:00 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:0
+[21-Sep-2021 12:46:00 UTC] PHP   2. do_action_ref_array() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:138
+[21-Sep-2021 12:46:00 UTC] PHP   3. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:518
+[21-Sep-2021 12:46:00 UTC] PHP   4. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[21-Sep-2021 12:46:00 UTC] PHP   5. wprss_create_intro_feed_source() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[21-Sep-2021 12:46:00 UTC] PHP   6. wprss_create_feed_source_with_url() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:241
+[21-Sep-2021 12:46:00 UTC] PHP   7. wprss_feed_source_name_from_url() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:279
+[21-Sep-2021 12:46:00 UTC] PHP   8. SimplePie->__construct() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:325
+[21-Sep-2021 12:46:00 UTC] PHP   9. SimplePie->init() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php:726
+[21-Sep-2021 12:46:00 UTC] PHP  10. SimplePie->fetch_data() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php:1416
+[21-Sep-2021 12:46:00 UTC] PHP  11. trigger_error() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php:1747
+[21-Sep-2021 12:46:00 UTC] PHP Warning:  ./cache is not writable. Make sure you've set the correct relative or absolute path, and that the location is server-writable. in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php on line 1510
+[21-Sep-2021 12:46:00 UTC] PHP Stack trace:
+[21-Sep-2021 12:46:00 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:0
+[21-Sep-2021 12:46:00 UTC] PHP   2. do_action_ref_array() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:138
+[21-Sep-2021 12:46:00 UTC] PHP   3. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:518
+[21-Sep-2021 12:46:00 UTC] PHP   4. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[21-Sep-2021 12:46:00 UTC] PHP   5. wprss_create_intro_feed_source() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[21-Sep-2021 12:46:00 UTC] PHP   6. wprss_create_feed_source_with_url() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:241
+[21-Sep-2021 12:46:00 UTC] PHP   7. wprss_feed_source_name_from_url() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:279
+[21-Sep-2021 12:46:00 UTC] PHP   8. SimplePie->__construct() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:325
+[21-Sep-2021 12:46:00 UTC] PHP   9. SimplePie->init() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php:726
+[21-Sep-2021 12:46:00 UTC] PHP  10. trigger_error() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php:1510
+[22-Sep-2021 11:09:48 UTC] PHP Warning:  ./cache is not writable. Make sure you've set the correct relative or absolute path, and that the location is server-writable. in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php on line 1747
+[22-Sep-2021 11:09:48 UTC] PHP Stack trace:
+[22-Sep-2021 11:09:48 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:0
+[22-Sep-2021 11:09:48 UTC] PHP   2. do_action_ref_array() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:138
+[22-Sep-2021 11:09:48 UTC] PHP   3. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:518
+[22-Sep-2021 11:09:48 UTC] PHP   4. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[22-Sep-2021 11:09:48 UTC] PHP   5. wprss_create_intro_feed_source() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[22-Sep-2021 11:09:48 UTC] PHP   6. wprss_create_feed_source_with_url() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:241
+[22-Sep-2021 11:09:48 UTC] PHP   7. wprss_feed_source_name_from_url() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:279
+[22-Sep-2021 11:09:48 UTC] PHP   8. SimplePie->__construct() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:325
+[22-Sep-2021 11:09:48 UTC] PHP   9. SimplePie->init() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php:726
+[22-Sep-2021 11:09:48 UTC] PHP  10. SimplePie->fetch_data() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php:1416
+[22-Sep-2021 11:09:48 UTC] PHP  11. trigger_error() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php:1747
+[22-Sep-2021 11:09:48 UTC] PHP Warning:  ./cache is not writable. Make sure you've set the correct relative or absolute path, and that the location is server-writable. in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php on line 1510
+[22-Sep-2021 11:09:48 UTC] PHP Stack trace:
+[22-Sep-2021 11:09:48 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:0
+[22-Sep-2021 11:09:48 UTC] PHP   2. do_action_ref_array() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:138
+[22-Sep-2021 11:09:48 UTC] PHP   3. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:518
+[22-Sep-2021 11:09:48 UTC] PHP   4. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[22-Sep-2021 11:09:48 UTC] PHP   5. wprss_create_intro_feed_source() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[22-Sep-2021 11:09:48 UTC] PHP   6. wprss_create_feed_source_with_url() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:241
+[22-Sep-2021 11:09:48 UTC] PHP   7. wprss_feed_source_name_from_url() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:279
+[22-Sep-2021 11:09:48 UTC] PHP   8. SimplePie->__construct() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/plugins/wp-rss-aggregator/includes/admin-intro-page.php:325
+[22-Sep-2021 11:09:48 UTC] PHP   9. SimplePie->init() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php:726
+[22-Sep-2021 11:09:48 UTC] PHP  10. trigger_error() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-simplepie.php:1510
+[22-Sep-2021 11:14:16 UTC] PHP Warning:  get_headers() expects at least 1 parameter, 0 given in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-news.php on line 2
+[22-Sep-2021 11:14:16 UTC] PHP Stack trace:
+[22-Sep-2021 11:14:16 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 11:14:16 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 11:14:16 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 11:14:16 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 11:14:16 UTC] PHP   5. get_headers() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-news.php:2
