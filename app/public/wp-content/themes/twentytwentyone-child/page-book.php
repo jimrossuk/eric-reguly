@@ -23,28 +23,20 @@ get_header();
     <div class="bookSales"style="display:none">
 
         <?php 
-    if( have_rows('buy_this_book') ): ?>
-    <?php while( have_rows('buy_this_book') ): the_row(); 
-
-$bna = get_sub_field('barnes_and_noble');
-$amz = get_sub_field('amazon');
-?>
-
-<ui>
-    <li>
-        <button class="buttonCenter" href="<?php echo esc_url( $bna['url']); ?>"><?php echo esc_html( $bna['title'] ); ?></button>
-    </li>
-    <li>
-        <button class="buttonCenter" href="<?php echo esc_url( $amz['url']); ?>"><?php echo esc_html( $amz['title'] ); ?></button>
-    </li>
-</ui>
 
 
+$buy = get_field('buy_this_book');
+if( $buy ): ?>
+           
+            <a class="" href="<?php echo esc_url( $buy['amazon']['url'] ); ?>"><button class="buttonCenter"><?php echo esc_html( $buy['amazon']['title'] ); ?></button></a>
+            <a class="" href="<?php echo esc_url( $buy['barnes_and_noble']['url'] ); ?>"><button class="buttonCenter"><?php echo esc_html( $buy['barnes_and_noble']['title'] ); ?></button></a>
+        </div>
+    </div>
+    
+<?php endif; ?>
 
 
-    <?php endwhile; ?>  
-    <?php endif; ?>    
-
+   
     </div>
 </div>
 

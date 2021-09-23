@@ -153,6 +153,15 @@ p {
   z-index: 4;
 }
 
+.wp-rss-template-container {
+  background-color: red;
+  list-style: none;
+}
+
+.feed-item {
+  list-style-type: none;
+}
+
 @media screen and (max-width: 527px) {
   .tx {
     font-size: .68em;

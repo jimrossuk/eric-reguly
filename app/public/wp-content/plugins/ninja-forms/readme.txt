@@ -3,7 +3,7 @@ Contributors: wpninjasllc, kstover, jameslaws, kbjohnson90, klhall1987, krmoorho
 Tags: forms, contact form, email form, form builder, custom form, pdf form, registration form, payment form, login form, contact me, signature form, upload form, file upload form, conditional form, feedback form, appointment form, quote form, survey form, contact button, signup form, form plugin, contact form plugin, subscription form, email subscription form, newsletter form, donation form, booking form, quote request form, multi page form, conditional logic form, subscription form, application form, employment verification form, star rating form, rating form, event form, mailchimp form, campaign monitor form, constant contact form, mailpoet form, aweber form, cleverreach form, emma form, convertkit form, active campaign form, salesforce form, zoho form, capsule form, insightly form, pipelinedeals form, onepagecrm form
 Requires at least: 5.6
 Tested up to: 5.8
-Stable tag: 3.5.8.2
+Stable tag: 3.5.8.3
 License: GPLv2 or later
 
 The 100% beginner friendly WordPress form builder. Drag & drop form fields to build beautiful, professional contact forms in minutes.
@@ -303,13 +303,19 @@ This section describes how to install the plugin and get it working.
 
 == Upgrade Notice ==
 
-= 3.5.8.2 (21 September 2021)
+= 3.5.8.3 (22 September 2021)
 
 *Bugs:*
 
-* Ensure cached value of form is stored with sanitized value
+* Ensure sanitized values enables spaces between classNames
 
 == Changelog ==
+
+= 3.5.8.3 (22 September 2021)
+
+*Bugs:*
+
+* Ensure sanitized values enables spaces between classNames
 
 = 3.5.8.2 (21 September 2021)
 

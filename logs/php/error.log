@@ -1574,3 +1574,81 @@ Stack trace:
 [22-Sep-2021 11:14:16 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
 [22-Sep-2021 11:14:16 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
 [22-Sep-2021 11:14:16 UTC] PHP   5. get_headers() /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-news.php:2
+[22-Sep-2021 11:58:10 UTC] PHP Warning:  Illegal string offset 'url' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 35
+[22-Sep-2021 11:58:10 UTC] PHP Stack trace:
+[22-Sep-2021 11:58:10 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 11:58:10 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 11:58:10 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 11:58:10 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 11:58:10 UTC] PHP Warning:  Illegal string offset 'title' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 35
+[22-Sep-2021 11:58:10 UTC] PHP Stack trace:
+[22-Sep-2021 11:58:10 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 11:58:10 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 11:58:10 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 11:58:10 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 11:58:10 UTC] PHP Warning:  Illegal string offset 'url' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 38
+[22-Sep-2021 11:58:10 UTC] PHP Stack trace:
+[22-Sep-2021 11:58:10 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 11:58:10 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 11:58:10 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 11:58:10 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 11:58:10 UTC] PHP Warning:  Illegal string offset 'title' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 38
+[22-Sep-2021 11:58:10 UTC] PHP Stack trace:
+[22-Sep-2021 11:58:10 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 11:58:10 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 11:58:10 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 11:58:10 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 11:58:32 UTC] PHP Warning:  Illegal string offset 'url' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 35
+[22-Sep-2021 11:58:32 UTC] PHP Stack trace:
+[22-Sep-2021 11:58:32 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 11:58:32 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 11:58:32 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 11:58:32 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 11:58:32 UTC] PHP Warning:  Illegal string offset 'title' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 35
+[22-Sep-2021 11:58:32 UTC] PHP Stack trace:
+[22-Sep-2021 11:58:32 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 11:58:32 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 11:58:32 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 11:58:32 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 11:58:32 UTC] PHP Warning:  Illegal string offset 'url' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 38
+[22-Sep-2021 11:58:32 UTC] PHP Stack trace:
+[22-Sep-2021 11:58:32 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 11:58:32 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 11:58:32 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 11:58:32 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 11:58:32 UTC] PHP Warning:  Illegal string offset 'title' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 38
+[22-Sep-2021 11:58:32 UTC] PHP Stack trace:
+[22-Sep-2021 11:58:32 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 11:58:32 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 11:58:32 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 11:58:32 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 12:09:34 UTC] PHP Warning:  Illegal string offset 'url' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 38
+[22-Sep-2021 12:09:34 UTC] PHP Stack trace:
+[22-Sep-2021 12:09:34 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 12:09:34 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 12:09:34 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 12:09:34 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 12:09:34 UTC] PHP Warning:  Illegal string offset 'title' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 38
+[22-Sep-2021 12:09:34 UTC] PHP Stack trace:
+[22-Sep-2021 12:09:34 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 12:09:34 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 12:09:34 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 12:09:34 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 12:10:08 UTC] PHP Warning:  Illegal string offset 'link' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 38
+[22-Sep-2021 12:10:08 UTC] PHP Stack trace:
+[22-Sep-2021 12:10:08 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 12:10:08 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 12:10:08 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 12:10:08 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[22-Sep-2021 12:10:08 UTC] PHP Warning:  Illegal string offset 'title' in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 38
+[22-Sep-2021 12:10:08 UTC] PHP Stack trace:
+[22-Sep-2021 12:10:08 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[22-Sep-2021 12:10:08 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[22-Sep-2021 12:10:08 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[22-Sep-2021 12:10:08 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[23-Sep-2021 10:06:12 UTC] PHP Warning:  Use of undefined constant fdshjk - assumed 'fdshjk' (this will throw an Error in a future version of PHP) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-content/themes/twentytwentyone-child/page-book.php on line 27
+[23-Sep-2021 10:06:12 UTC] PHP Stack trace:
+[23-Sep-2021 10:06:12 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:0
+[23-Sep-2021 10:06:12 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
+[23-Sep-2021 10:06:12 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
+[23-Sep-2021 10:06:12 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106

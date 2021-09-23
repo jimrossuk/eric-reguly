@@ -210,7 +210,7 @@ final class NF_Database_FieldsController
 
                 //HOT Fix for https://github.com/Saturday-Drive/ninja-forms/issues/5934
                 if( in_array( $key, ["element_class", "container_class"] ) ) {
-                    $value = sanitize_html_class($value);
+                    $value = $this->sanitizeClasses($value);
 
                     // update field_data with sanitized value
                     $field_data[ 'settings' ][$key] = $value;
@@ -234,6 +234,31 @@ final class NF_Database_FieldsController
         // Rewrite the collection with the updated fields_data collection
         $this->fields_data = $updatedFieldsData;
     }
+
+/**
+ * Sanitizes single/multiple CSS classNames
+ *
+ * Explodes on space, sanitize each className, implode with space to recombine
+ * @param string $value
+ * @return string
+ */
+    protected function sanitizeClasses($value):string{
+        
+        $outgoing = $value;
+        $sanitized = [];
+        
+        $exploded = explode(' ',$value);
+
+        foreach($exploded as $singleClass){
+            $sanitized[] = sanitize_html_class($singleClass);
+        }
+
+        $outgoing = implode(' ',$sanitized);
+
+        return $outgoing;
+    }
+
+
 
     private function get_existing_meta()
     {
