@@ -1,9 +1,3 @@
-// .text{
-//     background: red;
-//     color: white;
-//     text-align: center;
-//     display: none;
-// }
 h1, h2, h3, h4{
    font-family: Lora !important;
 }
@@ -34,21 +28,6 @@ margin: 3px;
 }
 
 
-// .text-2{
-//   background-color: blue;
-//   color: chartreuse;
-//   text-align: center;
-// }
-
-// .text-3{
-//   background-color: crimson;
-// }
-// .test-title{
-//     color: rgb(0, 255, 55);
-//     background: fuchsia;
-//     text-align: center;
-// }
-
 .site-main > *{
   margin-top: 0 !important;
   margin-bottom: 0 !important;
@@ -74,35 +53,6 @@ margin: 3px;
   position: relative;
 }
 
-// This section of three
-//  is to get the scroling bit 
-
-// .mousetest {
-//   width: 320px;
-//     height: 170px;
-//     margin: 10px 50px 10px 10px;
-//     background: purple;
-//     border: 2px groove;
-//     float: right;
-// }
-
-// .pTest{
-//   margin: 0;
-//   margin-left: 10px;
-//   color: firebrick;
-//   // width: 220px;
-//   // height: 120px;
-//   // padding-top: 70px;
-//   text-align: center;
-//   font-size: 14px;
-// }
-
-// .spanTest{
-//   display: block;
- 
-// }
-// This is the end of the tree sections for scroll bit
-
 
 //  For book title
 .front-page-title{
@@ -122,64 +72,12 @@ margin: 3px;
   
 }
 
-// .parallax {
-//     height: 100vh;
-//     overflow-x: hidden;
-//     overflow-y: auto;
-//     -webkit-perspective: 1px;
-//     perspective: 1px;
-//     margin-top: 0;
-//   }
-
-//   .parallax__layer {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     right: 0;
-//     bottom: 0;
-//   }
-
-//   .parallax__layer--base {
-//     -webkit-transform: translateZ(0);
-//     transform: translateZ(0);
-//   }
-
-//   .parallax__layer--back {
-//     -webkit-transform: translateZ(-1px);
-//     transform: translateZ(-4px);
-//     scale: 4;
-//   }
-
-
-  /* demo styles
-  --------------------------------------------- */
-
   * {
     margin:0;
     padding:0;
   }
 
-  // body {
-  //   font: 100% / 1.5 Arial;
-  // }
-
-  // .parallax {
-  //   font-size: 200%;
-  // }
-
-  //  /* add some padding to force scrollbars */
-  // .parallax__layer {
-  //   padding: 100vh 0;
-  // }
-
-  //  /* centre the content in the parallax layers */
-  // .title {
-  //   position: absolute;
-  //   left: 50%;
-  //   top: 50%;
-  //   -webkit-transform: translate(-50%, -50%);
-  //   transform: translate(-50%, -50%);
-  // }
+ 
 
   .pic{
       display: block;
@@ -188,11 +86,7 @@ margin: 3px;
    
   }
 
-  // .new{
-  //   width: 37%;
-  //   display: block;
-  //   margin: 0 auto;
-  // }
+  
 .nf-field-description p{
 
   font-size: x-large;
@@ -360,21 +254,68 @@ margin: 3px;
   left: 1px;
 }
 
+// news styles
+// ul{
+//   padding: 0 !important;
+//   border: 0;
+// }
 
-.map{
-  width: 100%;
-  z-index: 4;
-
+.news-page{
+  text-align: center;
+  border-bottom: 2px solid ;
+}
+.wp-rss-template-container a{
+  list-style: none;
+  font-size:x-large;
+  padding-top: 3em; 
+//   background-color: transparent;
+// }:active:focus:visited:focus-within{
+//    color: firebrick;
+}
+a{
+  // color: aqua !important;
+  // background-color: gray !important;
 }
 
+.has-background-white .site a:focus{
+  color: black !important;
+  background-color: white !important;
+  padding-top: 0 !important;
+  text-decoration: yellow 5px solid !important;
+}
+// not(.wp-block-button__link):not(.wp-block-file__button)
 
 .wp-rss-template-container{
-  background-color: red;
-  list-style: none;
+  padding-top: 3em;
+  // margin: 0 !important;
+  // border-top: solid 4px rgb(139, 139, 145);
 }
+
 // 
 .feed-item{
   list-style-type: none;
 
+}
+
+.wp-rss-template-container{
+  margin: 4em;
+} 
+
+.feed-item{
+  display: inline-block;
+  text-align: center;
+  // margin: 0 2em;
+  // padding: 2em;
+  border-bottom: solid 1px gray;
+  width: 100%;
+}
+
+.wpra-item-list--default{
+  padding-left: 0 !important ;
+}
+
+
+div.wpra-list-template .wpra-item-list a{
+  text-decoration: none;
 }
  @import"media-enquires.scss";
