@@ -1,4 +1,4 @@
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, a {
   font-family: Lora !important;
 }
 
@@ -157,12 +157,15 @@ p {
   padding-top: 3em;
 }
 
-.has-background-white .site a:focus {
-  color: black !important;
+.has-background-white .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button):not(.menu-item .menu-item-type-post_type .menu-item-object-page):not(.primary-navigation a):not(.site-branding a) {
+  color: green !important;
   background-color: white !important;
-  padding-top: 0 !important;
-  -webkit-text-decoration: yellow 5px solid !important;
-          text-decoration: yellow 5px solid !important;
+  padding: 0 !important;
+}
+
+.primary-navigation a:focus {
+  background-color: red !important;
+  list-style-type: none;
 }
 
 .wp-rss-template-container {

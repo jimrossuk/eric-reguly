@@ -1,4 +1,4 @@
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5, a{
    font-family: Lora !important;
 }
 p{
@@ -272,18 +272,27 @@ margin: 3px;
 // }:active:focus:visited:focus-within{
 //    color: firebrick;
 }
-a{
-  // color: aqua !important;
-  // background-color: gray !important;
+
+// This is the style for link on news page. when clicked should not have black background
+.has-background-white .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button):not(.menu-item .menu-item-type-post_type .menu-item-object-page ):not(.primary-navigation a):not(.site-branding a){
+  color: green !important;
+  background-color: white !important;
+  padding:  0!important;
 }
 
-.has-background-white .site a:focus{
-  color: black !important;
-  background-color: white !important;
-  padding-top: 0 !important;
-  text-decoration: yellow 5px solid !important;
+.primary-navigation a:focus{
+  // padding:  0 1em!important;
+  background-color: red !important;
+  list-style-type: none;
+  // color: pink !important;
 }
-// not(.wp-block-button__link):not(.wp-block-file__button)
+// menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-23 current_page_item menu-item-34
+
+// menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-23 current_page_item menu-item-34
+// menu-item menu-item-type-post_type menu-item-object-page menu-item-35
+// menu-item menu-item-type-post_type menu-item-object-page menu-item-124
+
+// ABOUT   menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-23 current_page_item menu-item-34
 
 .wp-rss-template-container{
   padding-top: 3em;
