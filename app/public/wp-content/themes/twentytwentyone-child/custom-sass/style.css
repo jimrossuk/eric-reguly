@@ -35,6 +35,28 @@ p {
   padding-top: 0 !important;
 }
 
+.site-title a {
+  text-decoration: none;
+}
+
+.site-branding a:hover {
+  color: #c3141c !important;
+}
+
+.primary-navigation .current-menu-item > a:first-child, .primary-navigation .current_page_item > a:first-child:focus {
+  border-radius: 12px;
+  -webkit-text-decoration: double !important;
+          text-decoration: double !important;
+}
+
+:hover {
+  text-decoration: none !important;
+}
+
+:focus {
+  background-color: transparent !important;
+}
+
 .site-header .has-title-and-headline {
   margin: 0 !important;
   padding: 0 !important;
@@ -42,6 +64,12 @@ p {
 
 .site-header {
   padding-bottom: 0 !important;
+}
+
+.primary-navigation a:hover {
+  color: #DA161F !important;
+  border-radius: 12px;
+  list-style-type: none;
 }
 
 .imageAndText {
@@ -161,11 +189,6 @@ p {
   color: green !important;
   background-color: white !important;
   padding: 0 !important;
-}
-
-.primary-navigation a:focus {
-  background-color: red !important;
-  list-style-type: none;
 }
 
 .wp-rss-template-container {
