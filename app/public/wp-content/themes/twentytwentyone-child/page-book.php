@@ -6,14 +6,15 @@ get_header();
     <!-- xxx -->
     <div class = "">
         <img id="bob-image" class="pic  " src="/wp-content/uploads/2021/05/regulyVietnam1.png">
-    <div style="disply:none;" id="book">
+    
 
-        <img  class="pic " style="width:50%" src="/wp-content/uploads/2021/09/Eric-Reguly-Book-cover.jpeg">
-    </div>
+    <img style="display:none;" id="book" class="pic book-style"  src="/wp-content/uploads/2021/09/Eric-Reguly-Book-cover.jpeg">
+    
     </div>
         <!-- <img id="book" class="pic fade-in" src="/uploads/2021/09/Eric-Reguly-Book-cover.jpeg"> -->
 
     <!-- <div style="display:none;"  class= " front-page-title pic fade-in ">
+        
             <?php echo do_shortcode(' [smartslider3 slider="2"] '); ?>
         </div> -->
 
@@ -30,7 +31,7 @@ get_header();
                 <?php endif; ?>
     </div>
 </div>
-
+<h3> Photographs of my Father</h3>
 <div style="display:none;"  class= " front-page-title pic fade-in ">
             <?php echo do_shortcode(' [smartslider3 slider="2"] '); ?>
         </div>
