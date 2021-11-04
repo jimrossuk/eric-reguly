@@ -1,3 +1,33 @@
+@media screen and (max-width: 527px) {
+  .tx {
+    font-size: .68em;
+  }
+  .book {
+    width: inherit;
+  }
+}
+
+@media screen and (min-width: 528px) {
+  .tx {
+    font-size: 1em;
+  }
+  .book {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .tx {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .tx {
+    font-size: 1em;
+  }
+}
+
 h1, h2, h3, h4, h5, a {
   font-family: Lora !important;
 }
@@ -74,14 +104,15 @@ p {
 
 .imageAndText {
   position: relative;
+  padding: 0;
 }
 
 .front-page-title {
   position: absolute;
   display: block;
   text-align: center;
-  top: 0;
-  width: 100%;
+  width: 50%;
+  margin: auto;
   z-index: 1;
 }
 
@@ -96,7 +127,7 @@ p {
 
 .pic {
   display: block;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -168,10 +199,16 @@ p {
   }
 }
 
-.book {
-  max-width: 54%;
-  right: 1px;
-  left: 1px;
+.metaslider.ms-theme-outline .flexslider ol.flex-control-nav:not(.flex-control-thumbs) {
+  bottom: -2em !important;
+}
+
+.flex-prev, .flex-next {
+  padding: 0 !important;
+  border-radius: 20%;
+  height: 0;
+  max-width: 0;
+  width: 0;
 }
 
 .news-page {
@@ -218,39 +255,7 @@ div.wpra-list-template .wpra-item-list a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 527px) {
-  .tx {
-    font-size: .68em;
-  }
-  .book {
-    width: inherit;
-  }
-}
-
-@media screen and (min-width: 528px) {
-  .tx {
-    font-size: 1em;
-  }
-  .book {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 650px) {
-  .tx {
-    font-size: 1em;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .tx {
-    font-size: 1em;
-  }
-}
-
-@media screen and (min-width: 850px) {
-  .tx {
-    font-size: 1em;
-  }
+li .wpra-item, .feed-item, .thisiscustomcode {
+  color: hotpink !important;
 }
 /*# sourceMappingURL=style.css.map */

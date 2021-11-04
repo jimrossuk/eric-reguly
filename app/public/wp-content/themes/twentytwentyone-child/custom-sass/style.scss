@@ -1,3 +1,4 @@
+@import"media-enquires.scss";
 h1, h2, h3, h4, h5, a{
    font-family: Lora !important;
 }
@@ -24,6 +25,12 @@ margin: 3px;
   border: 0;
 }
 
+// .testTest{
+// // background-color: red !important;
+// padding: 3em;
+// border: fuchsia 3px solid;
+// color: greenyellow;
+// }
 
 .site-main > *{
   margin-top: 0 !important;
@@ -72,6 +79,7 @@ margin: 3px;
 }
 .imageAndText{
   position: relative;
+  padding: 0;
 }
 
 
@@ -80,12 +88,16 @@ margin: 3px;
   position: absolute;
   display: block;
   text-align: center;
-  top: 0;
-  width: 100%;
+  // top: 210px;
+  width: 50%;
+  margin: auto;
   // color: firebrick;
   z-index: 1;
   // Delete this once fixed
-
+  // z-index: 1000;
+ 
+  // margin-left: auto;
+ 
 }
 // for book title
 .tx{  
@@ -98,13 +110,10 @@ margin: 3px;
     padding:0;
   }
 
- 
-
   .pic{
       display: block;
-      width: 80%;
+      width: 100%;
       margin: 0 auto;
-   
   }
 
   
@@ -269,16 +278,60 @@ margin: 3px;
 }
 }
 
-.book{
-  max-width: 54%;
-  right: 1px;
-  left: 1px;
-}
+// .book{
+//   max-width: 100%;
+  
+//   padding-top: 10%;
+// }
 
-// news styles
+// .bob-slider{
+//   // background-color: yellow ;
+//   max-width: 100%;
+  
+//   // padding-top: 7%;
+// }
+
+.metaslider.ms-theme-outline .flexslider ol.flex-control-nav:not(.flex-control-thumbs){
+  bottom: -2em !important;
+}
+  // news styles
 // ul{
 //   padding: 0 !important;
 //   border: 0;
+// }
+
+// .metaslider.ms-theme-outline .flexslider ol.flex-control-nav:not(.flex-control-thumbs) li a:hover{
+//   bottom: -2em !important;
+//   // background: #DA161F !important;
+  
+
+// .metaslider.ms-theme-outline .flexslider ul.flex-direction-nav li a{
+
+//   width: 30px !important;
+//   // color: aqua !important;
+//   // background-color: bisque;
+// }
+// }
+
+.flex-prev, .flex-next{
+  // background: transparent !important;
+  // border: 2px solid green !important;
+  padding: 0 !important;
+ border-radius: 20%;
+ height: 0;
+ max-width: 0;
+ width: 0;
+//  background-color: red !important;
+
+}
+
+// .flex-prev:active{
+//   background-color: cadetblue;
+// }
+
+
+// ::after.flex-prev:active.flex-next:active{
+//   background: #571616 !important;
 // }
 
 .news-page{
@@ -343,4 +396,12 @@ margin: 3px;
 div.wpra-list-template .wpra-item-list a{
   text-decoration: none;
 }
- @import"media-enquires.scss";
+
+
+li .wpra-item, .feed-item, .thisiscustomcode{
+  // background-color: red !important;
+  color: hotpink !important;
+  // display: inline-flex;
+}
+
+

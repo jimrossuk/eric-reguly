@@ -1652,3 +1652,27 @@ Stack trace:
 [23-Sep-2021 10:06:12 UTC] PHP   2. require() /Users/jimross/Local Sites/eric-reguly/app/public/index.php:17
 [23-Sep-2021 10:06:12 UTC] PHP   3. require_once() /Users/jimross/Local Sites/eric-reguly/app/public/wp-blog-header.php:19
 [23-Sep-2021 10:06:12 UTC] PHP   4. include() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/template-loader.php:106
+[15-Oct-2021 08:41:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/update.php on line 175
+[15-Oct-2021 08:41:00 UTC] PHP Stack trace:
+[15-Oct-2021 08:41:00 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:0
+[15-Oct-2021 08:41:00 UTC] PHP   2. do_action_ref_array() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:138
+[15-Oct-2021 08:41:00 UTC] PHP   3. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:518
+[15-Oct-2021 08:41:00 UTC] PHP   4. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[15-Oct-2021 08:41:00 UTC] PHP   5. wp_version_check() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[15-Oct-2021 08:41:00 UTC] PHP   6. trigger_error() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/update.php:175
+[15-Oct-2021 08:41:20 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/update.php on line 413
+[15-Oct-2021 08:41:20 UTC] PHP Stack trace:
+[15-Oct-2021 08:41:20 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:0
+[15-Oct-2021 08:41:20 UTC] PHP   2. do_action_ref_array() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:138
+[15-Oct-2021 08:41:20 UTC] PHP   3. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:518
+[15-Oct-2021 08:41:20 UTC] PHP   4. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[15-Oct-2021 08:41:20 UTC] PHP   5. wp_update_plugins() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[15-Oct-2021 08:41:20 UTC] PHP   6. trigger_error() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/update.php:413
+[15-Oct-2021 08:41:40 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/update.php on line 693
+[15-Oct-2021 08:41:40 UTC] PHP Stack trace:
+[15-Oct-2021 08:41:40 UTC] PHP   1. {main}() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:0
+[15-Oct-2021 08:41:40 UTC] PHP   2. do_action_ref_array() /Users/jimross/Local Sites/eric-reguly/app/public/wp-cron.php:138
+[15-Oct-2021 08:41:40 UTC] PHP   3. WP_Hook->do_action() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/plugin.php:518
+[15-Oct-2021 08:41:40 UTC] PHP   4. WP_Hook->apply_filters() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:327
+[15-Oct-2021 08:41:40 UTC] PHP   5. wp_update_themes() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/class-wp-hook.php:303
+[15-Oct-2021 08:41:40 UTC] PHP   6. trigger_error() /Users/jimross/Local Sites/eric-reguly/app/public/wp-includes/update.php:693

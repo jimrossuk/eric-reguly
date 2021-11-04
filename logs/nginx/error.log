@@ -5,3 +5,9 @@
 2021/09/24 14:44:27 [alert] 2800#0: *3532 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:10013
 2021/09/27 11:52:54 [alert] 1701#0: *193 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:10013
 2021/09/29 11:58:06 [alert] 1701#0: *1505 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:10013
+2021/10/04 11:17:54 [alert] 1701#0: *6545 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:10013
+2021/10/04 11:17:54 [alert] 1701#0: *6546 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:10013
+2021/10/04 11:17:54 [alert] 1701#0: *6547 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:10013
+2021/10/04 13:05:13 [alert] 37391#0: *111 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:10013
+2021/10/15 09:43:01 [alert] 18361#0: *4383 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:10013
+2021/11/03 15:22:04 [alert] 16482#0: *959 setsockopt(TCP_NODELAY) failed (22: Invalid argument) while keepalive, client: 127.0.0.1, server: 0.0.0.0:10013

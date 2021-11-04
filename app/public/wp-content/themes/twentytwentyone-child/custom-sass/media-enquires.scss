@@ -9,12 +9,14 @@
     .book{
         width: inherit;
     }
+    
 }
 
 @media screen and(min-width: 528px){
 
     .front-page-title{
         // top: 2.8em;
+        // background-color: red;
     }
     .tx{
         // top: 7em;
@@ -56,9 +58,9 @@
 //    .book{
 //        max-width: inherit;
 //    }
-    .tx{
-        // top: 12em;
-        font-size: 1em;
-    }     
+//     .tx{
+//         // top: 12em;
+//         font-size: 1em;
+//     }     
     
 }
